@@ -6,6 +6,9 @@ class Voted_Perceptron:
     
     def __init__(self, t):
         self.max_iter = t
+        self.weights = 0
+        self.bias = 0
+        self.costs = 0
 
     #x, w vector, y -1 or 1
     def fit(self, x, y):
@@ -36,14 +39,13 @@ class Voted_Perceptron:
         self.weights = w
         self.bias = b
         self.costs = c
-        return (w, b, c)
 
     def predict(self, x):
         pred = list()
-        temp = 0
         for i in x:
-            for j in range(1, len(self.weights)):
-                internal_sign = np.sign(utl.scalar_product(self.weights[j], i) + self.bias[j])
+            temp = 0
+            for j in range(0, len(self.weights)):
+                internal_sign = utl.sgn(utl.scalar_product(self.weights[j], i) + self.bias[j])
                 temp += (self.costs[j]*internal_sign)
-            pred.append(int(np.sign(temp)))
+            pred.append(utl.sgn(temp))
         return pred
