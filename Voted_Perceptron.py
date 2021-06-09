@@ -10,7 +10,6 @@ class Voted_Perceptron:
         self.bias = 0
         self.costs = 0
 
-    #x, w vector, y -1 or 1
     def fit(self, x, y):
         w = list()
         b = list()

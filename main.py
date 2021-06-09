@@ -3,7 +3,6 @@ from Voted_Perceptron import Voted_Perceptron
 from sklearn import metrics as metr
 import random
 
-
 train_sample_percentage = int(input("Insert percentage of train: "))
 train_sample_percentage /= 100
 repetitions = int(input("Insert number of repetitions of training and prediction: "))
