@@ -40,11 +40,11 @@ NOTE FINALI:
 RIFERIMENTI:<br /> 
 I dataset sono stati presi dall'UCI Machine Learning Repository, quelli implementati presentano attributi afferenti la classificazione in chimica e sono:
 
-- https://archive.ics.uci.edu/ml/datasets/QSAR+androgen+receptor 
+- https://archive.ics.uci.edu/ml/datasets/QSAR+androgen+receptor <br /> 
 "QSAR ANDROGEN RECEPTOR" (Dataset 1) F. Grisoni, V. Consonni, D. Ballabio, (2019) Machine Learning Consensus to Predict the Binding to the Androgen Receptor within the CoMPARA project, Journal of chemical information and modeling, 59, 1839-1848; doi: 10.1021/acs.jcim.8b00794
 
-- https://archive.ics.uci.edu/ml/datasets/QSAR+oral+toxicity 
+- https://archive.ics.uci.edu/ml/datasets/QSAR+oral+toxicity <br /> 
 "QSAR ORAL TOXICITY (Dataset 2) D. Ballabio, F. Grisoni, V. Consonni, R. Todeschini (2019), Integrated QSAR models to predict acute oral systemic toxicity, Molecular Informatics, 38, 180012; doi: 10.1002/minf.201800124
 
-- https://archive.ics.uci.edu/ml/datasets/QSAR+biodegradation 
+- https://archive.ics.uci.edu/ml/datasets/QSAR+biodegradation <br /> 
 "QSAR BIODEGRADATION" (Dataset 3) Mansouri, K., Ringsted, T., Ballabio, D., Todeschini, R., Consonni, V. (2013). Quantitative Structure - Activity Relationship models for ready biodegradability of chemicals. Journal of Chemical Information and Modeling, 53, 867-878
