@@ -37,7 +37,8 @@ NOTE FINALI:
 
 - Per il corretto funzionamento del programma è necessario inserire nella root di progetto i .csv dei Dataset citati successivamente.
 
-RIFERIMENTI: I dataset sono stati presi dall'UCI Machine Learning Repository, quelli implementati presentano attributi afferenti la classificazione in chimica e sono:
+RIFERIMENTI:<br /> 
+I dataset sono stati presi dall'UCI Machine Learning Repository, quelli implementati presentano attributi afferenti la classificazione in chimica e sono:
 
 - https://archive.ics.uci.edu/ml/datasets/QSAR+androgen+receptor 
 "QSAR ANDROGEN RECEPTOR" (Dataset 1) F. Grisoni, V. Consonni, D. Ballabio, (2019) Machine Learning Consensus to Predict the Binding to the Androgen Receptor within the CoMPARA project, Journal of chemical information and modeling, 59, 1839-1848; doi: 10.1021/acs.jcim.8b00794
