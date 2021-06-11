@@ -2,6 +2,7 @@ from utils import get_stats, print_stats, load_data
 from Voted_Perceptron import Voted_Perceptron
 from sklearn import metrics as metr
 import random
+import time
 
 train_sample_percentage = int(input("Insert percentage of train: "))
 train_sample_percentage /= 100
@@ -17,6 +18,7 @@ choice = input("Choose which dataset to load (1, 2, or 3): ")
 csv_reader = 0
 print()
 
+start = time.time()
 if choice == '1':
     X, Y = load_data('qsar_androgen_receptor.csv')
 elif choice == '2':
@@ -66,3 +68,5 @@ stats_label.append("F1" + order)
 stats_label.append("Precision" + order)
 stats_label.append("Recall" + order)
 print_stats(stats_label, stats_matr)
+end = time.time()
+print("Time needed for the execution: " + str(end-start))
